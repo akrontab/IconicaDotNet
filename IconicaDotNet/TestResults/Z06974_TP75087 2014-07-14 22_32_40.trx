@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9208ada8-5e9d-4a0f-8f02-5999721c8c35" name="Z06974@TP75087 2014-07-14 22:32:40" runUser="APSC\Z06974" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ae15d030-af2b-49cc-9fab-d3bbb187682d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Z06974_TP75087 2014-07-14 22_32_40">
+      <DeploymentItem filename="C:\fun\IconicaPieces\bin\Debug\IconicaPieces.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-14T22:32:40.4889174-07:00" queuing="2014-07-14T22:32:40.5201174-07:00" start="2014-07-14T22:32:40.5201174-07:00" finish="2014-07-14T22:32:40.8009179-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestChooseCharacter" storage="c:\fun\iconicadotnet\iconicatests\bin\debug\iconicatests.dll" id="612ecfee-c76f-f47c-7b52-c797edc4e3f6">
+      <Execution id="bc09acd5-9512-4166-9232-f92afbc1dee2" />
+      <TestMethod codeBase="C:/fun/IconicaDotNet/IconicaTests/bin/Debug/IconicaTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IconicaTests.PlayerTests, IconicaTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestChooseCharacter" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="612ecfee-c76f-f47c-7b52-c797edc4e3f6" executionId="bc09acd5-9512-4166-9232-f92afbc1dee2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bc09acd5-9512-4166-9232-f92afbc1dee2" testId="612ecfee-c76f-f47c-7b52-c797edc4e3f6" testName="TestChooseCharacter" computerName="TP75087" duration="00:00:00.0291614" startTime="2014-07-14T22:32:40.5669175-07:00" endTime="2014-07-14T22:32:40.7853179-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc09acd5-9512-4166-9232-f92afbc1dee2">
+    </UnitTestResult>
+  </Results>
+</TestRun>

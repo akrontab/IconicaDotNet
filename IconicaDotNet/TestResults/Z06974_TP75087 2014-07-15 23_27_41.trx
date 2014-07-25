@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="70b0c2b4-cb06-46b4-8271-4e8571fdc4ae" name="Z06974@TP75087 2014-07-15 23:27:41" runUser="APSC\Z06974" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="ae15d030-af2b-49cc-9fab-d3bbb187682d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Z06974_TP75087 2014-07-15 23_27_41">
+      <DeploymentItem filename="C:\fun\IconicaDotNet\IconicaPieces\bin\Debug\IconicaPieces.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-07-15T23:27:41.4054368-07:00" queuing="2014-07-15T23:27:42.9186395-07:00" start="2014-07-15T23:27:43.0122396-07:00" finish="2014-07-15T23:27:43.9170412-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="11" executed="11" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="9" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CardConstructorTest" storage="c:\fun\iconicadotnet\iconicadotnet\iconicatests\bin\debug\iconicatests.dll" id="2866537a-b443-7534-fc87-88434ea90d47">
+      <Execution id="452ca3d6-fdfa-47ad-9d67-035b102ea43d" />
+      <TestMethod codeBase="C:/fun/IconicaDotNet/IconicaDotNet/IconicaTests/bin/Debug/IconicaTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IconicaTests.CardTest, IconicaTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CardConstructorTest" />
+    </UnitTest>
+    <UnitTest name="TestChooseCharacter" storage="c:\fun\iconicadotnet\iconicadotnet\iconicatests\bin\debug\iconicatests.dll" id="612ecfee-c76f-f47c-7b52-c797edc4e3f6">
+      <Execution id="ba9dfbac-9b18-4cb0-a70d-b834aff434f7" />
+      <TestMethod codeBase="C:/fun/IconicaDotNet/IconicaDotNet/IconicaTests/bin/Debug/IconicaTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IconicaTests.PlayerTests, IconicaTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestChooseCharacter" />
+    </UnitTest>
+    <UnitTest name="TakeDamageTest" storage="c:\fun\iconicadotnet\iconicadotnet\iconicatests\bin\debug\iconicatests.dll" id="a6d3bf1b-ba52-8287-f5ac-e1e6f907747e">
+      <Execution id="8e298f24-bffd-4782-a9a8-a0ee2a64d96d" />
+      <TestMethod codeBase="C:/fun/IconicaDotNet/IconicaDotNet/IconicaTests/bin/Debug/IconicaTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IconicaTests.CardTest, IconicaTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TakeDamageTest" />
+    </UnitTest>
+    <UnitTest name="HealthTest" storage="c:\fun\iconicadotnet\iconicadotnet\iconicatests\bin\debug\iconicatests.dll" id="06a47e82-aa9f-4298-1ba3-f19556c7be52">
+      <DeploymentItems>
+        <DeploymentItem filename="IconicaPieces.dll" />
+      </DeploymentItems>
+      <Execution id="70e305f2-a030-479f-a652-2192b4a1f72a" />
+      <TestMethod codeBase="C:/fun/IconicaDotNet/IconicaDotNet/IconicaTests/bin/Debug/IconicaTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IconicaTests.CardTest, IconicaTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HealthTest" />
+    </UnitTest>
+    <UnitTest name="CharacterClassTest" storage="c:\fun\iconicadotnet\iconicadotnet\iconicatests\bin\debug\iconicatests.dll" id="4e3f0329-991c-94bb-d70a-0237771a9037">
+      <DeploymentItems>
+        <DeploymentItem filename="IconicaPieces.dll" />
+      </DeploymentItems>
+      <Execution id="97e4a015-b665-47be-ba92-27bac7784fe4" />
+      <TestMethod codeBase="C:/fun/IconicaDotNet/IconicaDotNet/IconicaTests/bin/Debug/IconicaTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IconicaTests.CardTest, IconicaTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CharacterClassTest" />
+    </UnitTest>
+    <UnitTest name="CharacterFactionTest" storage="c:\fun\iconicadotnet\iconicadotnet\iconicatests\bin\debug\iconicatests.dll" id="8c86a2ba-5627-f26b-77d1-d0e9729ea380">
+      <DeploymentItems>
+        <DeploymentItem filename="IconicaPieces.dll" />
+      </DeploymentItems>
+      <Execution id="2adfdc1a-384f-47ad-9676-8c806a35c1a5" />
+      <TestMethod codeBase="C:/fun/IconicaDotNet/IconicaDotNet/IconicaTests/bin/Debug/IconicaTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IconicaTests.CardTest, IconicaTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CharacterFactionTest" />
+    </UnitTest>
+    <UnitTest name="NameTest" storage="c:\fun\iconicadotnet\iconicadotnet\iconicatests\bin\debug\iconicatests.dll" id="f6e8fd20-028e-85bd-4425-6b0e6d8a4359">
+      <DeploymentItems>
+        <DeploymentItem filename="IconicaPieces.dll" />
+      </DeploymentItems>
+      <Execution id="beef49d0-b041-45eb-b112-420429ea125e" />
+      <TestMethod codeBase="C:/fun/IconicaDotNet/IconicaDotNet/IconicaTests/bin/Debug/IconicaTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IconicaTests.CardTest, IconicaTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NameTest" />
+    </UnitTest>
+    <UnitTest name="ShowStatusEffectsTest" storage="c:\fun\iconicadotnet\iconicadotnet\iconicatests\bin\debug\iconicatests.dll" id="92ba6e0d-c5f6-23e4-c108-eaab86baafb7">
+      <Execution id="b6800ccf-b5d6-4136-8f37-3cf113a66bbb" />
+      <TestMethod codeBase="C:/fun/IconicaDotNet/IconicaDotNet/IconicaTests/bin/Debug/IconicaTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IconicaTests.CardTest, IconicaTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShowStatusEffectsTest" />
+    </UnitTest>
+    <UnitTest name="RemoveStatusEffectTest" storage="c:\fun\iconicadotnet\iconicadotnet\iconicatests\bin\debug\iconicatests.dll" id="6fa7e34d-d313-a811-44f4-e90006218427">
+      <Execution id="5f5ed728-11df-4397-9ba2-90c35db38a6e" />
+      <TestMethod codeBase="C:/fun/IconicaDotNet/IconicaDotNet/IconicaTests/bin/Debug/IconicaTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IconicaTests.CardTest, IconicaTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RemoveStatusEffectTest" />
+    </UnitTest>
+    <UnitTest name="HealTest" storage="c:\fun\iconicadotnet\iconicadotnet\iconicatests\bin\debug\iconicatests.dll" id="5ac959a1-d448-d2c3-084a-00a94a8f9f84">
+      <Execution id="6a9b02c1-9157-485d-9cb9-a18bb51779c1" />
+      <TestMethod codeBase="C:/fun/IconicaDotNet/IconicaDotNet/IconicaTests/bin/Debug/IconicaTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IconicaTests.CardTest, IconicaTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HealTest" />
+    </UnitTest>
+    <UnitTest name="ApplyStatusEffectTest" storage="c:\fun\iconicadotnet\iconicadotnet\iconicatests\bin\debug\iconicatests.dll" id="ab7088a1-4408-437a-72b1-6787e49c6685">
+      <Execution id="c35bd9e4-c8bf-4e26-8f79-4fdcad155786" />
+      <TestMethod codeBase="C:/fun/IconicaDotNet/IconicaDotNet/IconicaTests/bin/Debug/IconicaTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="IconicaTests.CardTest, IconicaTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ApplyStatusEffectTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="06a47e82-aa9f-4298-1ba3-f19556c7be52" executionId="70e305f2-a030-479f-a652-2192b4a1f72a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2866537a-b443-7534-fc87-88434ea90d47" executionId="452ca3d6-fdfa-47ad-9d67-035b102ea43d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e3f0329-991c-94bb-d70a-0237771a9037" executionId="97e4a015-b665-47be-ba92-27bac7784fe4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ac959a1-d448-d2c3-084a-00a94a8f9f84" executionId="6a9b02c1-9157-485d-9cb9-a18bb51779c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="612ecfee-c76f-f47c-7b52-c797edc4e3f6" executionId="ba9dfbac-9b18-4cb0-a70d-b834aff434f7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6fa7e34d-d313-a811-44f4-e90006218427" executionId="5f5ed728-11df-4397-9ba2-90c35db38a6e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c86a2ba-5627-f26b-77d1-d0e9729ea380" executionId="2adfdc1a-384f-47ad-9676-8c806a35c1a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92ba6e0d-c5f6-23e4-c108-eaab86baafb7" executionId="b6800ccf-b5d6-4136-8f37-3cf113a66bbb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a6d3bf1b-ba52-8287-f5ac-e1e6f907747e" executionId="8e298f24-bffd-4782-a9a8-a0ee2a64d96d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab7088a1-4408-437a-72b1-6787e49c6685" executionId="c35bd9e4-c8bf-4e26-8f79-4fdcad155786" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f6e8fd20-028e-85bd-4425-6b0e6d8a4359" executionId="beef49d0-b041-45eb-b112-420429ea125e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="70e305f2-a030-479f-a652-2192b4a1f72a" testId="06a47e82-aa9f-4298-1ba3-f19556c7be52" testName="HealthTest" computerName="TP75087" duration="00:00:00.0993235" startTime="2014-07-15T23:27:43.1838399-07:00" endTime="2014-07-15T23:27:43.7922410-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70e305f2-a030-479f-a652-2192b4a1f72a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at IconicaTests.CardTest.HealthTest() in C:\fun\IconicaDotNet\IconicaDotNet\IconicaTests\CardTest.cs:line 185
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="452ca3d6-fdfa-47ad-9d67-035b102ea43d" testId="2866537a-b443-7534-fc87-88434ea90d47" testName="CardConstructorTest" computerName="TP75087" duration="00:00:00.0006406" startTime="2014-07-15T23:27:43.8078410-07:00" endTime="2014-07-15T23:27:43.8078410-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="452ca3d6-fdfa-47ad-9d67-035b102ea43d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   at IconicaTests.CardTest.CardConstructorTest() in C:\fun\IconicaDotNet\IconicaDotNet\IconicaTests\CardTest.cs:line 75
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="97e4a015-b665-47be-ba92-27bac7784fe4" testId="4e3f0329-991c-94bb-d70a-0237771a9037" testName="CharacterClassTest" computerName="TP75087" duration="00:00:00.0019637" startTime="2014-07-15T23:27:43.8078410-07:00" endTime="2014-07-15T23:27:43.8078410-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97e4a015-b665-47be-ba92-27bac7784fe4">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at IconicaTests.CardTest.CharacterClassTest() in C:\fun\IconicaDotNet\IconicaDotNet\IconicaTests\CardTest.cs:line 153
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6a9b02c1-9157-485d-9cb9-a18bb51779c1" testId="5ac959a1-d448-d2c3-084a-00a94a8f9f84" testName="HealTest" computerName="TP75087" duration="00:00:00.0007872" startTime="2014-07-15T23:27:43.8234411-07:00" endTime="2014-07-15T23:27:43.8234411-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a9b02c1-9157-485d-9cb9-a18bb51779c1">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at IconicaTests.CardTest.HealTest() in C:\fun\IconicaDotNet\IconicaDotNet\IconicaTests\CardTest.cs:line 99
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ba9dfbac-9b18-4cb0-a70d-b834aff434f7" testId="612ecfee-c76f-f47c-7b52-c797edc4e3f6" testName="TestChooseCharacter" computerName="TP75087" duration="00:00:00.0006106" startTime="2014-07-15T23:27:43.8234411-07:00" endTime="2014-07-15T23:27:43.8234411-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba9dfbac-9b18-4cb0-a70d-b834aff434f7">
+    </UnitTestResult>
+    <UnitTestResult executionId="5f5ed728-11df-4397-9ba2-90c35db38a6e" testId="6fa7e34d-d313-a811-44f4-e90006218427" testName="RemoveStatusEffectTest" computerName="TP75087" duration="00:00:00.0024798" startTime="2014-07-15T23:27:43.8234411-07:00" endTime="2014-07-15T23:27:43.8390411-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f5ed728-11df-4397-9ba2-90c35db38a6e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at IconicaTests.CardTest.RemoveStatusEffectTest() in C:\fun\IconicaDotNet\IconicaDotNet\IconicaTests\CardTest.cs:line 111
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2adfdc1a-384f-47ad-9676-8c806a35c1a5" testId="8c86a2ba-5627-f26b-77d1-d0e9729ea380" testName="CharacterFactionTest" computerName="TP75087" duration="00:00:00.0017434" startTime="2014-07-15T23:27:43.8390411-07:00" endTime="2014-07-15T23:27:43.8390411-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2adfdc1a-384f-47ad-9676-8c806a35c1a5">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at IconicaTests.CardTest.CharacterFactionTest() in C:\fun\IconicaDotNet\IconicaDotNet\IconicaTests\CardTest.cs:line 169
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b6800ccf-b5d6-4136-8f37-3cf113a66bbb" testId="92ba6e0d-c5f6-23e4-c108-eaab86baafb7" testName="ShowStatusEffectsTest" computerName="TP75087" duration="00:00:00.0333987" startTime="2014-07-15T23:27:43.8390411-07:00" endTime="2014-07-15T23:27:43.8702411-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6800ccf-b5d6-4136-8f37-3cf113a66bbb">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Collections.Generic.List`1[IconicaPieces.StatusEffect]&gt;. </Message>
+          <StackTrace>   at IconicaTests.CardTest.ShowStatusEffectsTest() in C:\fun\IconicaDotNet\IconicaDotNet\IconicaTests\CardTest.cs:line 124
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8e298f24-bffd-4782-a9a8-a0ee2a64d96d" testId="a6d3bf1b-ba52-8287-f5ac-e1e6f907747e" testName="TakeDamageTest" computerName="TP75087" duration="00:00:00.0008366" startTime="2014-07-15T23:27:43.8858412-07:00" endTime="2014-07-15T23:27:43.8858412-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e298f24-bffd-4782-a9a8-a0ee2a64d96d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at IconicaTests.CardTest.TakeDamageTest() in C:\fun\IconicaDotNet\IconicaDotNet\IconicaTests\CardTest.cs:line 137
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c35bd9e4-c8bf-4e26-8f79-4fdcad155786" testId="ab7088a1-4408-437a-72b1-6787e49c6685" testName="ApplyStatusEffectTest" computerName="TP75087" duration="00:00:00.0016004" startTime="2014-07-15T23:27:43.8858412-07:00" endTime="2014-07-15T23:27:43.8858412-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c35bd9e4-c8bf-4e26-8f79-4fdcad155786">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at IconicaTests.CardTest.ApplyStatusEffectTest() in C:\fun\IconicaDotNet\IconicaDotNet\IconicaTests\CardTest.cs:line 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="beef49d0-b041-45eb-b112-420429ea125e" testId="f6e8fd20-028e-85bd-4425-6b0e6d8a4359" testName="NameTest" computerName="TP75087" duration="00:00:00.0013206" startTime="2014-07-15T23:27:43.9014412-07:00" endTime="2014-07-15T23:27:43.9014412-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="beef49d0-b041-45eb-b112-420429ea125e">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at IconicaTests.CardTest.NameTest() in C:\fun\IconicaDotNet\IconicaDotNet\IconicaTests\CardTest.cs:line 201
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
